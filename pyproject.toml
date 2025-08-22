@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "ai-academy"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+ipykernel = "^6.30.1"
+dotenv = "^0.9.9"
+langchain-openai = "^0.3.30"
+langchain-core = "^0.3.74"
+langchain-community = "^0.3.27"
+tavily-python = "^0.7.11"
+langchain-google-genai = "^2.1.9"
+pandas = "^2.3.2"
+langchain-experimental = "^0.3.4"
+tabulate = "^0.9.0"
+google-genai = "^1.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
